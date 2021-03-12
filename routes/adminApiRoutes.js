@@ -11,5 +11,4 @@ router.get('/all',authenticate,allAdmins);
 router.get('/:adminId',authenticate,specificAdmin);
 router.delete('/:adminId',authenticate,deleteAdmin);
 
-
 module.exports = router;
